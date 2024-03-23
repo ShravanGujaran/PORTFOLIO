@@ -2,14 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import Temp from "../../Assets/Projects/Temp.png";
 import Weather from "../../Assets/Projects/Weather.png";
 import NOTE from "../../Assets/Projects/NOTE.png";
 import BREAST from "../../Assets/Projects/BREAST.png";
+import po from "../../Assets/Projects/po.png";
 
 function Projects() {
   return (
@@ -71,13 +68,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={po}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="PORTFOLIO"
+              description="The portfolio project is a web application developed using React and Node.js technologies. It serves as a platform for showcasing your professional skills, projects, and experiences to potential employers or clients."
+              ghLink="https://github.com/ShravanGujaran/PORTFOLIO"
+              demoLink="https://ShravanGujaran.vercel.app/"     
             />
           </Col>
         </Row>
